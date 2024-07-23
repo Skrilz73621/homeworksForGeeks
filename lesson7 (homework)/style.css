@@ -1,0 +1,42 @@
+body{
+    overflow: hidden;
+    background-color: gainsboro;
+}
+
+.wrapper{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    font-size: 1rem;
+    width: 350px;
+    height: 40px;
+    background-color: cadetblue;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.numbers{
+    font-size: 3rem;
+    display: flex;
+    margin-top: 3em;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.numbers div{
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background-color: magenta;
+    outline: 2px solid black;
+}
