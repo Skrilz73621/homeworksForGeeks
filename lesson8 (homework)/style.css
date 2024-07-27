@@ -1,0 +1,55 @@
+body{
+    overflow: hidden;
+    background-color: dimgray;
+}
+
+.wrapper{
+    transform: translate(50%, 50%);
+    width: 50vw;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.months{
+    margin-top: 1rem;
+}
+
+.seasonButton{
+    width: 200px;
+    height: 80px;
+    font-size: 2rem;
+}
+
+.seasonButton:hover{
+    cursor: pointer;
+}
+
+.winter{
+    background-color: cyan;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.spring{
+    background-color: greenyellow;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.summer{
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.fall{
+    background-color: orangered;
+    border: 1px solid black;
+    border-radius: 10px;
+}
